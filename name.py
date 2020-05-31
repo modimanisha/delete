@@ -1,4 +1,5 @@
-x = 'mani'
-z = 'pankaj'
-y= x+z
-print(y)
+def getName(x , y):
+    return x+y
+
+output = getName('name', 'pankaj')
+print(output)
